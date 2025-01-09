@@ -29,6 +29,6 @@ jobs:
       uses: actions/upload-artifact@v4.3.1
       with:
         if-no-files-found: error
-        name: dist_android
+        name: build
         path: |
           build/libs/*.jar
